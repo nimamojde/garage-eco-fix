@@ -1,0 +1,116 @@
+
+{
+  "home": "Accueil",
+  "services": "Services",
+  "about": "À propos",
+  "tire_sale": "Vente de pneus",
+  "contact": "Contact",
+  "promotion": "Promotion",
+
+  "hero_title": "Bienvenue chez Garage Eco Fix",
+  "hero_sub": "Fiable • Professionnel • Réparation Automobile Abordable",
+  "appointment": "Prendre Rendez-vous",
+
+  "our_services": "Nos Services",
+
+  "tires": "Pneus",
+  "tires_desc": "Changement, équilibrage, échange saisonnier & plus.",
+
+  "diagnostics": "Diagnostics",
+  "diagnostics_desc": "Diagnostics complets moteur & ordinateur.",
+
+  "brakes": "Freins",
+  "brakes_desc": "Services de frein sûrs et fiables.",
+
+  "suspension": "Suspension",
+  "suspension_desc": "Alignement, amortisseurs, barres de liaison & plus.",
+
+  "wheel_alignment": "Alignement des roues",
+  "wheel_alignment_desc": "Conduisez droit. Conduisez en sécurité",
+
+  "exhaust": "Échappement",
+  "exhaust_desc": "Son fluide, flux puissant",
+
+  "general_maintenance": "Entretien Général",
+  "general_maintenance_desc": "Gardez votre voiture en bon état",
+
+  "about_header": "Une Tradition de Confiance",
+  "about_text": "Eco Fix sert fièrement Montréal depuis des décennies. Notre philosophie repose sur un service honnête, un travail de haute qualité, des techniciens professionnels et une approche centrée sur le client.",
+  "learn_more": "En savoir plus",
+  "about_list_1": "Service honnête",
+  "about_list_2": "Travail de haute qualité",
+  "about_list_3": "Techniciens professionnels",
+  "about_list_4": "Priorité au client",
+  "about_title": "À propos de nous",
+  "about_subtitle": "Une tradition de confiance",
+
+  "contact_header": "Contactez-nous",
+  "address": "6320 Rue St-Jacques H4B 1T6, Montréal (QC)",
+  "phone": "+1 (438) 385-9757 - 438 928-6675",
+  "opening_hours": "Lun–Sam : 8h – 18h",
+  "email": "ecofixgarage@gmail.com",
+  "book_appointment": "Prendre Rendez-vous",
+  "full_name": "Nom Complet",
+  "service": "Service",
+  "preferred_date": "Date Préférée",
+  "send": "Envoyer",
+  "contact_title": "Contactez-nous",
+
+"address_title": "Adresse",
+"address_text": "6320 Rue St-Jacques H4B 1T6, Montréal (QC)",
+
+"phone_title": "Téléphone",
+"phone_text": "+1 (438) 385-9757 - 438 928-6675",
+
+"hours_title": "Heures d'ouverture",
+"hours_text": "Lun–Sam : 8h – 18h",
+
+"email_title": "Courriel",
+"email_text": "ecofixgarage@gmail.com",
+
+"form_title": "Prendre rendez-vous",
+"form_name": "Nom complet",
+"form_email": "Courriel",
+"form_service": "Service",
+"form_date": "Date préférée",
+"send_btn": "Envoyer",
+
+  "promotion_header": "Offres Spéciales & Réductions",
+  "first_visit": "Première Visite",
+  "first_visit_desc": "10% de réduction",
+  "friend_referral": "Parrainage d'Ami",
+  "friend_referral_desc": "10% de réduction - Les deux clients",
+  "student_discount": "Réduction Étudiante",
+  "student_discount_desc": "10% de réduction - Sur la main-d'œuvre",
+  "loyalty_card": "Carte de Fidélité",
+  "loyalty_card_desc": "40% de réduction - 6ème service d'huile",
+  "free_safety_check": "Vérification Gratuite de Sécurité",
+  "free_safety_check_desc": "Freins, Fluides & Batterie",
+  "taxi_uber": "Taxi / Uber",
+  "taxi_uber_desc": "10% de réduction",
+  "companies_discount": "Entreprises",
+  "companies_discount_desc": "Réduction sur la main-d'œuvre",
+  "promotion_title": "Offres spéciales et réductions",
+"promo_1": "Première visite",
+"promo_2": "Parrainage d’ami",
+"promo_2_desc": "Les deux clients",
+"promo_3": "Réduction étudiante",
+"promo_3_desc": "Sur la main-d'œuvre",
+"promo_4": "Carte de fidélité",
+"promo_4_desc": "6e service d’huile",
+"promo_5": "Vérification gratuite",
+"promo_5_desc": "Freins, fluides et batterie",
+"promo_6": "Taxi / Uber",
+"promo_7": "Entreprises",
+"promo_7_desc": "Sur la main-d'œuvre",
+
+  "tire_sale_sub": "Promotions pneus hiver & été.",
+  "winter_tires": "Pneus d'hiver",
+  "winter_tires_desc": "Modèles performants et économiques disponibles.",
+  "summer_tires": "Pneus d'été",
+  "summer_tires_desc": "Modèles performants et économiques disponibles.",
+  "all_season_tires": "Pneus toutes saisons",
+  "all_season_tires_desc": "Meilleur choix pour la conduite urbaine toute l'année.",
+
+  "copyright": "© 2026 Garage Eco Fix"
+}

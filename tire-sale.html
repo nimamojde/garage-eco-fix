@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tire Sale - Garage Eco Fix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <div class="container">
+    <a class="navbar-brand fs-3" href="index.html">Garage <span class="eco-text">Eco</span> Fix</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+    <a class="nav-link lang" data-key="home" href="index.html">Home</a>
+    <a class="nav-link lang active" data-key="services" href="services.html">Services</a>
+    <a class="nav-link lang" data-key="about" href="about.html">About Us</a>
+    <a class="nav-link lang" data-key="tire_sale" href="tire-sale.html">Tire Sale</a>
+    <a class="nav-link lang" data-key="contact" href="contact.html">Contact</a>
+    <a class="nav-link lang" data-key="promotion" href="promotion.html">Promotion</a>    
+    </div>
+
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header class="py-5 bg-light text-center">
+  <h1 class="lang" data-key="tire_sale">Tire Sale</h1>
+  <p class="lead lang" data-key="tire_sale_sub">Winter & Summer tire promotions.</p>
+</header>
+
+<!-- TIRE CARDS -->
+<section class="container py-5">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="img/image1.png" class="card-img-top" alt="Winter Tires">
+        <div class="card-body">
+          <h5 class="fw-bold lang" data-key="winter_tires">Winter Tires</h5>
+          <p class="lang" data-key="winter_tires_desc">Performance & economy models available.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="img/image2.png" class="card-img-top" alt="Summer Tires">
+        <div class="card-body">
+          <h5 class="fw-bold lang" data-key="summer_tires">Summer Tires</h5>
+          <p class="lang" data-key="summer_tires_desc">Performance & economy models available.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow h-100">
+        <img src="img/image3.png" class="card-img-top" alt="All-Season Tires">
+        <div class="card-body">
+          <h5 class="fw-bold lang" data-key="all_season_tires">All-Season Tires</h5>
+          <p class="lang" data-key="all_season_tires_desc">Best choice for year-round urban driving.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+  <p class="lang" data-key="copyright">&copy; 2026 Garage Eco Fix</p>
+</footer>
+
+<script src="js/lang.js"></script>
+</body>
+</html>

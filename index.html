@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eco Fix</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+  <div class="container">
+
+    <a class="navbar-brand fs-3" href="#">
+      Garage <span class="eco-text">Eco</span> Fix
+    </a>
+
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="img/logo.png" class="header-logo">
+      <img src="img/download.png" class="header-logo">
+      <img src="img/image6.png" class="header-logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+
+  <li class="nav-item">
+    <a class="nav-link lang" data-key="home" href="index.html">Home</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link lang" data-key="services" href="services.html">Services</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link lang" data-key="about" href="about.html">About Us</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link lang" data-key="tire_sale" href="tire-sale.html">Tire Sale</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link lang" data-key="contact" href="contact.html">Contact</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link lang" data-key="promotion" href="promotion.html">Promotion</a>
+  </li>
+
+  <!-- LANGUAGE -->
+  <li class="nav-item dropdown ms-lg-3">
+    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+      🌐
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="#" onclick="setLanguage('en')">English</a></li>
+      <li><a class="dropdown-item" href="#" onclick="setLanguage('fr')">Français</a></li>
+    </ul>
+  </li>
+
+</ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="lang" data-key="hero_title">Welcome to Garage Eco Fix</h1>
+    <p class="lang" data-key="hero_sub">Reliable • Professional • Affordable Auto Repair</p>
+    <a href="contact.html" class="btn btn-success btn-lg lang" data-key="appointment">
+      Make an Appointment
+    </a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-5 lang" data-key="our_services">Our Services</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow">
+          <img src="img/tire.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="lang" data-key="tires">Tires</h5>
+            <p class="lang" data-key="tires_desc"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow">
+          <img src="img/diagnostics.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="lang" data-key="diagnostics">Diagnostics</h5>
+            <p class="lang" data-key="diagnostics_desc"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow">
+          <img src="img/brake.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="lang" data-key="brakes">Brakes</h5>
+            <p class="lang" data-key="brakes_desc"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow">
+          <img src="img/suspension.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="lang" data-key="suspension">Suspension</h5>
+            <p class="lang" data-key="suspension_desc"></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold lang" data-key="about">About Us</h2>
+    <p class="lead lang" data-key="about_text"></p>
+    <a href="about.html" class="btn btn-secondary lang" data-key="learn_more">Learn More</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p class="mb-1 lang" data-key="copyright"></p>
+    <p class="mb-0 lang" data-key="address"></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/lang.js"></script>
+</body>
+</html>
+
+ 

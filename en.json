@@ -1,0 +1,81 @@
+
+{
+  "home": "Home",
+  "services": "Services",
+  "about": "About Us",
+  "tire_sale": "Tire Sale",
+  "contact": "Contact",
+  "promotion": "Promotion",
+
+  "hero_title": "Welcome to Garage Eco Fix",
+  "hero_sub": "Reliable • Professional • Affordable Auto Repair",
+  "appointment": "Make an Appointment",
+
+  "our_services": "Our Services",
+
+  "tires": "Tires",
+  "tires_desc": "Change, balancing, seasonal swap & more.",
+
+  "diagnostics": "Diagnostics",
+  "diagnostics_desc": "Full engine & computer diagnostics.",
+
+  "brakes": "Brakes",
+  "brakes_desc": "Safe and reliable brake services.",
+
+  "suspension": "Suspension",
+  "suspension_desc": "Alignment, struts, tie-rods & more.",
+
+  "wheel_alignment": "Wheel Alignment",
+  "wheel_alignment_desc": "Drive Straight. Drive Safe",
+
+  "exhaust": "Exhaust",
+  "exhaust_desc": "Smooth sound, strong flow",
+
+  "general_maintenance": "General Maintenance",
+  "general_maintenance_desc": "Keep your car running right",
+
+  "about_header": "A Tradition of Trust",
+  "about_text": "Eco Fix has been proudly serving Montreal for decades. Our philosophy is based on honest service, high-quality work, professional technicians, and a customer-first approach.",
+  "learn_more": "Learn More",
+  "about_list_1": "Honest service",
+  "about_list_2": "High-quality work",
+  "about_list_3": "Professional technicians",
+  "about_list_4": "Customer-first approach",
+
+  "contact_header": "Contact Us",
+  "address": "6320 Rue St-Jacques H4B 1T6, Montréal (QC)",
+  "phone": "+1 (438) 385-9757 - 438 928-6675",
+  "opening_hours": "Mon–Sat: 8am – 6pm",
+  "email": "ecofixgarage@gmail.com",
+  "book_appointment": "Book an Appointment",
+  "full_name": "Full Name",
+  "service": "Service",
+  "preferred_date": "Preferred Date",
+  "send": "Send",
+
+  "promotion_header": "Special Offers & Discounts",
+  "first_visit": "First Visit",
+  "first_visit_desc": "10% OFF",
+  "friend_referral": "Friend Referral",
+  "friend_referral_desc": "10% OFF - Both Customers",
+  "student_discount": "Student Discount",
+  "student_discount_desc": "10% OFF - On Labor",
+  "loyalty_card": "Loyalty Card",
+  "loyalty_card_desc": "40% OFF - 6th Oil Service",
+  "free_safety_check": "Free Safety Check",
+  "free_safety_check_desc": "Brakes, Fluids & Battery",
+  "taxi_uber": "Taxi / Uber",
+  "taxi_uber_desc": "10% OFF",
+  "companies_discount": "Companies",
+  "companies_discount_desc": "Discount on Labor",
+
+  "tire_sale_sub": "Winter & Summer tire promotions.",
+  "winter_tires": "Winter Tires",
+  "winter_tires_desc": "Performance & economy models available.",
+  "summer_tires": "Summer Tires",
+  "summer_tires_desc": "Performance & economy models available.",
+  "all_season_tires": "All-Season Tires",
+  "all_season_tires_desc": "Best choice for year-round urban driving.",
+
+  "copyright": "© 2026 Garage Eco Fix"
+}
