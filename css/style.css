@@ -1,1 +1,429 @@
+.hero {
+  height: 70vh;
+}  
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.navbar, footer {
+  background-color: var(--secondary) !important;
+}
+
+:root {
+  --secondary: #1f3c88;
+}
+
+.navbar-brand {
+  color: #ffeb3b !important; 
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #ffd700 !important; 
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #28a745 !important; 
+  border-color: #28a745 !important;
+}
+
+.btn-danger:hover {
+  background-color: #218838 !important; 
+  border-color: #1e7e34 !important;
+}
+
+.hero {
+    height: 500px;
+    background: linear-gradient(
+        rgba(0, 48, 110, 0.75),
+        rgba(0, 48, 110, 0.75)
+    ),
+    url("img/image5.png") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+    /* Animation Fade-in */
+    animation: fadeIn 1.8s ease-out forwards;
+    opacity: 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFD700; /* yellow */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    animation: slideDown 1.2s ease-out forwards;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 15px;
+    animation: slideUp 1.4s ease-out forwards;
+}
+
+.hero .btn {
+    margin-top: 25px;
+    background-color: #1e3684;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #1e3684;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(40px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+.services-section {
+  padding: 80px 10%;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.services-section h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.services-section .subtitle {
+  color: #6b7280;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+/* GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.service-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ICON */
+.service-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* TEXT */
+.service-card h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  color: #6b7280;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero {
+  height: 90vh;
+  background-image: url("../img/mechanic-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  background: #facc15; /* زرد */
+  color: #1e3a8a;      /* آبی تیره */
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+}
+
+.header-logo {
+    width: 32px;
+    height: auto;
+    object-fit: contain;
+}
+
+.header-logo {
+    width: 100px;
+}
+
+
+.promotions {
+  background: #0a2a66;
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.promotions h2 {
+  color: #f9c400;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.promo-card {
+  background: radial-gradient(circle, #0d3c91, #061f4a);
+  border: 8px solid #f9c400;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.promo-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.promo-card span {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f9c400;
+}
+
+.promo-card p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* کارت وسط بزرگ‌تر */
+.promo-card.center {
+  transform: scale(1.1);
+  background: radial-gradient(circle, #1b4fd8, #081c40);
+}
+
+
+.promo-card.tire {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #0f3f99 45%, #061f4a 100%);
+  color: #fff;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:
+    inset 0 0 0 6px #111,
+    inset 0 0 0 14px #f9c400,
+    inset 0 0 0 22px #111,
+    0 15px 30px rgba(0,0,0,0.6);
+}
+
+/* دندانه‌های لاستیک */
+.promo-card.tire::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    #111 0deg 12deg,
+    #333 12deg 24deg
+  );
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.8);
+  z-index: -1;
+}
+
+/* لبه بیرونی تایر */
+.promo-card.tire::after {
+  content: "";
+  position: absolute;
+  inset: -30px;
+  border-radius: 50%;
+  background: #0b0b0b;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.9);
+  z-index: -2;
+}
+
+/* متن */
+.promo-card.tire h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.promo-card.tire span {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f9c400;
+}
+
+.promo-card.tire p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* کارت وسط بزرگ‌تر */
+.promo-card.center {
+  transform: scale(1.15);
+}
+
+/* افکت حرفه‌ای */
+.promo-card.tire:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.eco-text {
+  color: #00d716;
+  font-weight: bold;
+}
+
+.about-section {
+  padding: 80px 10%;
+  background: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Image */
+.about-image img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+/* Text */
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-content ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.about-content ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #f9c400;
+}
+
+.about-image img {
+  filter: contrast(1.1) saturate(1.1);
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* اعمال انیمیشن به لینک promotion */
+.nav-link[data-key="promotion"] {
+    color: yellow;
+    animation: blink 1s infinite; /* هر ۱ ثانیه یک بار چشمک میزند */
+}
+
+
 
