@@ -18,5 +18,5 @@ function setLanguage(lang) {
 window.onload = function () {
   const savedLang = localStorage.getItem("lang") || "en";
   setLanguage(savedLang);
-}
+};
 
