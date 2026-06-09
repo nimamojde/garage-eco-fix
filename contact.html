@@ -58,9 +58,12 @@
 
     <!-- Appointment Form Column -->
     <div class="col-md-6 mb-4">
-      <h3 class="mb-3 lang" data-key="form_title">Book an Appointment</h3>
+  <h3 class="mb-3">Book an Appointment</h3>
 
-      <form action="https://formspree.io/f/xojnejpv" method="POST">
+  <div class="calendly-inline-widget"
+       data-url="https://calendly.com/ecofixgarage/30min"
+       style="min-width:320px;height:700px;">
+        </div> 
         <div class="mb-3">
          <label class="form-label lang" data-key="form_name">Full Name</label>
           <input type="text" name="name" class="form-control" required>
@@ -86,17 +89,17 @@
   <select name="time" class="form-select" required>
     <option value="">-- Select Time --</option>
 
-    <option value="08:00 AM">08:00 AM</option>
     <option value="09:00 AM">09:00 AM</option>
     <option value="10:00 AM">10:00 AM</option>
     <option value="11:00 AM">11:00 AM</option>
-    <option value="12:00 PM">12:00 PM</option>
+    <option value="12:00 AM">12:00 AM</option>
     <option value="01:00 PM">01:00 PM</option>
     <option value="02:00 PM">02:00 PM</option>
     <option value="03:00 PM">03:00 PM</option>
     <option value="04:00 PM">04:00 PM</option>
     <option value="05:00 PM">05:00 PM</option>
     <option value="06:00 PM">06:00 PM</option>
+    <option value="07:00 PM">07:00 PM</option>
 
   </select>
 </div>
@@ -121,7 +124,8 @@
 <footer class="bg-dark text-white text-center py-4">
   <p class="lang" data-key="copyright">© 2026 Garage Eco Fix</p>
 </footer>
-
+  
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <script src="js/lang.js"></script>
 </body>
 
